@@ -3,7 +3,7 @@ import HomeHeader from "./HomeHeader";
 import HomeMainSection from "./HomeMainSection";
 import HomeFooter from "./HomeFooter";
 
-function Home() {
+const Home = () => {
   return (
     <div className="home">
       <HomeHeader />
@@ -11,6 +11,6 @@ function Home() {
       <HomeFooter />
     </div>
   );
-}
+};
 
 export default Home;
